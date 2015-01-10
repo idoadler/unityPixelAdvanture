@@ -11,19 +11,28 @@ public class MovePlayer : MonoBehaviour {
 	public Sprite down;
 	public Sprite right;
 
-	private int size;
-	private int stepsLeft = 0;
-	private Vector2 dir = Vector2.zero;
-	private bool finishedLevel = false;
+	private int stepsLeft;
+	private Vector2 dir;
+	private bool finishedLevel;
+	public CameraPixelFollow cameraFollow;
 
 	private SpriteRenderer spriteRenderer;
 
 	// Use this for initialization
-	void Start () 
+	void Awake () 
 	{
+		//cameraFollow = GetComponent<CameraPixelFollow>();
 		spriteRenderer = GetComponent<SpriteRenderer>();
-		size = (int)down.bounds.size.x;
-		stepsLeft = size;
+	}
+
+	public void init (Vector3 position, MapsData mapsData)
+	{
+		stepsLeft = (int)down.bounds.size.x;
+		dir = Vector2.zero;
+		finishedLevel = false;
+		transform.position = position;
+		cameraFollow.init(position);
+		mapData = mapsData;
 	}
 	
 	// Update is called once per frame
@@ -86,13 +95,27 @@ public class MovePlayer : MonoBehaviour {
 		}
 		else
 		{
-			stepsLeft = size;
-			dir = Vector2.zero;
+			stepsLeft = (int)down.bounds.size.x;
 			if (finishedLevel)
 			{
 				SetTiles.nextMap();
-				finishedLevel = false;
 			}
+			else
+			{
+				cameraFollow.step(dir, transform.position);
+			}
+			dir = Vector2.zero;
+		}
+	}
+
+	private int cameraSteps = 0;
+	void cameraStep(Vector2 dir)
+	{
+		if (cameraSteps > 0)
+		{
+			cameraSteps--;
+			Camera.main.transform.position = new Vector3 (Camera.main.transform.position.x + dir.x, Camera.main.transform.position.y + dir.y, Camera.main.transform.position.z);
+			Invoke("cameraStep",stepTime/2);
 		}
 	}
 }

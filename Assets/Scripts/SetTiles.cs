@@ -23,8 +23,8 @@ public class SetTiles : MonoBehaviour {
 		mapsData = ReadTiles.LoadMap(mapFiles);
 		mapsData.loadMap(0);
 		mainPlayer = Instantiate(Player) as GameObject;
-		Camera.main.transform.position = new Vector3 (mainPlayer.transform.position.x, mainPlayer.transform.position.y, Camera.main.transform.position.z);
-		Camera.main.transform.parent = mainPlayer.transform;
+		//Camera.main.transform.position = new Vector3 (mainPlayer.transform.position.x, mainPlayer.transform.position.y, Camera.main.transform.position.z);
+		//Camera.main.transform.parent = mainPlayer.transform;
 		DrawMap();
 	}
 
@@ -54,8 +54,7 @@ public class SetTiles : MonoBehaviour {
 			}
 		}
 
-		mainPlayer.transform.position = new Vector3(size.x*mapsData.playerPos.x,-size.y*mapsData.playerPos.y,0);
-		mainPlayer.GetComponent<MovePlayer>().mapData = mapsData;
+		mainPlayer.GetComponent<MovePlayer>().init(new Vector3(size.x*mapsData.playerPos.x,-size.y*mapsData.playerPos.y,0),mapsData);
 	}
 
 	static public void nextMap()

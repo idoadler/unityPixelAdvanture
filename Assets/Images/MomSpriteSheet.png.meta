@@ -1,56 +1,29 @@
 fileFormatVersion: 2
-guid: 28959678b3be1489aa6f1ba862bad838
+guid: 3aa14b13ea65c41cb8d42397f5a39cb0
 TextureImporter:
   fileIDToRecycleName:
-    21300000: "\u05D3\u05DE\u05D5\u05D9\u05D5\u05EA \u05DC\u05E2\u05D9\u05D3\u05D5
-      \u05D4\u05DB\u05DC \u05D1\u05D9\u05D7\u05D3_0"
-    21300002: "\u05D3\u05DE\u05D5\u05D9\u05D5\u05EA \u05DC\u05E2\u05D9\u05D3\u05D5
-      \u05D4\u05DB\u05DC \u05D1\u05D9\u05D7\u05D3_1"
-    21300004: "\u05D3\u05DE\u05D5\u05D9\u05D5\u05EA \u05DC\u05E2\u05D9\u05D3\u05D5
-      \u05D4\u05DB\u05DC \u05D1\u05D9\u05D7\u05D3_2"
-    21300006: "\u05D3\u05DE\u05D5\u05D9\u05D5\u05EA \u05DC\u05E2\u05D9\u05D3\u05D5
-      \u05D4\u05DB\u05DC \u05D1\u05D9\u05D7\u05D3_3"
-    21300008: "\u05D3\u05DE\u05D5\u05D9\u05D5\u05EA \u05DC\u05E2\u05D9\u05D3\u05D5
-      \u05D4\u05DB\u05DC \u05D1\u05D9\u05D7\u05D3_4"
-    21300010: "\u05D3\u05DE\u05D5\u05D9\u05D5\u05EA \u05DC\u05E2\u05D9\u05D3\u05D5
-      \u05D4\u05DB\u05DC \u05D1\u05D9\u05D7\u05D3_5"
-    21300012: "\u05D3\u05DE\u05D5\u05D9\u05D5\u05EA \u05DC\u05E2\u05D9\u05D3\u05D5
-      \u05D4\u05DB\u05DC \u05D1\u05D9\u05D7\u05D3_6"
-    21300014: "\u05D3\u05DE\u05D5\u05D9\u05D5\u05EA \u05DC\u05E2\u05D9\u05D3\u05D5
-      \u05D4\u05DB\u05DC \u05D1\u05D9\u05D7\u05D3_7"
-    21300016: "\u05D3\u05DE\u05D5\u05D9\u05D5\u05EA \u05DC\u05E2\u05D9\u05D3\u05D5
-      \u05D4\u05DB\u05DC \u05D1\u05D9\u05D7\u05D3_8"
-    21300018: "\u05D3\u05DE\u05D5\u05D9\u05D5\u05EA \u05DC\u05E2\u05D9\u05D3\u05D5
-      \u05D4\u05DB\u05DC \u05D1\u05D9\u05D7\u05D3_9"
-    21300020: "\u05D3\u05DE\u05D5\u05D9\u05D5\u05EA \u05DC\u05E2\u05D9\u05D3\u05D5
-      \u05D4\u05DB\u05DC \u05D1\u05D9\u05D7\u05D3_10"
-    21300022: "\u05D3\u05DE\u05D5\u05D9\u05D5\u05EA \u05DC\u05E2\u05D9\u05D3\u05D5
-      \u05D4\u05DB\u05DC \u05D1\u05D9\u05D7\u05D3_11"
-    21300024: "\u05D3\u05DE\u05D5\u05D9\u05D5\u05EA \u05DC\u05E2\u05D9\u05D3\u05D5
-      \u05D4\u05DB\u05DC \u05D1\u05D9\u05D7\u05D3_12"
-    21300026: "\u05D3\u05DE\u05D5\u05D9\u05D5\u05EA \u05DC\u05E2\u05D9\u05D3\u05D5
-      \u05D4\u05DB\u05DC \u05D1\u05D9\u05D7\u05D3_13"
-    21300028: "\u05D3\u05DE\u05D5\u05D9\u05D5\u05EA \u05DC\u05E2\u05D9\u05D3\u05D5
-      \u05D4\u05DB\u05DC \u05D1\u05D9\u05D7\u05D3_14"
-    21300030: MomSheet_0
-    21300032: MomSheet_1
-    21300034: MomSheet_2
-    21300036: MomSheet_3
-    21300038: MomSheet_4
-    21300040: MomSheet_5
-    21300042: MomSheet_6
-    21300044: MomSheet_7
-    21300046: MomSheet_8
-    21300048: MomSheet_9
-    21300050: MomSheet_10
-    21300052: MomSheet_11
-    21300054: MomSheet_12
-    21300056: MomSheet_13
-    21300058: MomSheet_14
+    21300000: MomSpriteSheet_0
+    21300002: MomSpriteSheet_1
+    21300004: MomSpriteSheet_2
+    21300006: MomSpriteSheet_3
+    21300008: MomSpriteSheet_4
+    21300010: MomSpriteSheet_5
+    21300012: MomSpriteSheet_6
+    21300014: MomSpriteSheet_7
+    21300016: MomSpriteSheet_8
+    21300018: MomSpriteSheet_9
+    21300020: MomSpriteSheet_10
+    21300022: MomSpriteSheet_11
+    21300024: MomSpriteSheet_12
+    21300026: MomSpriteSheet_13
+    21300028: MomSpriteSheet_14
+    21300030: MomSpriteSheet_15
+    21300032: MomSpriteSheet_16
+    21300034: MomSpriteSheet_17
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -66,29 +39,29 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 64
+  textureFormat: 5
+  maxTextureSize: 1024
   textureSettings:
     filterMode: 0
-    aniso: -1
+    aniso: 1
     mipBias: -1
     wrapMode: 1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 1
-  alphaIsTransparency: 0
-  textureType: 0
+  alphaIsTransparency: 1
+  textureType: 5
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: MomSheet_0
+    - name: MomSpriteSheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -98,7 +71,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MomSheet_1
+    - name: MomSpriteSheet_1
       rect:
         serializedVersion: 2
         x: 8
@@ -108,7 +81,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MomSheet_2
+    - name: MomSpriteSheet_2
       rect:
         serializedVersion: 2
         x: 16
@@ -118,7 +91,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MomSheet_3
+    - name: MomSpriteSheet_3
       rect:
         serializedVersion: 2
         x: 24
@@ -128,7 +101,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MomSheet_4
+    - name: MomSpriteSheet_4
       rect:
         serializedVersion: 2
         x: 32
@@ -138,7 +111,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MomSheet_5
+    - name: MomSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MomSpriteSheet_6
       rect:
         serializedVersion: 2
         x: 0
@@ -148,7 +131,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MomSheet_6
+    - name: MomSpriteSheet_7
       rect:
         serializedVersion: 2
         x: 8
@@ -158,7 +141,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MomSheet_7
+    - name: MomSpriteSheet_8
       rect:
         serializedVersion: 2
         x: 16
@@ -168,7 +151,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MomSheet_8
+    - name: MomSpriteSheet_9
       rect:
         serializedVersion: 2
         x: 24
@@ -178,7 +161,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MomSheet_9
+    - name: MomSpriteSheet_10
       rect:
         serializedVersion: 2
         x: 32
@@ -188,7 +171,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MomSheet_10
+    - name: MomSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MomSpriteSheet_12
       rect:
         serializedVersion: 2
         x: 0
@@ -198,7 +191,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MomSheet_11
+    - name: MomSpriteSheet_13
       rect:
         serializedVersion: 2
         x: 8
@@ -208,7 +201,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MomSheet_12
+    - name: MomSpriteSheet_14
       rect:
         serializedVersion: 2
         x: 16
@@ -218,7 +211,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MomSheet_13
+    - name: MomSpriteSheet_15
       rect:
         serializedVersion: 2
         x: 24
@@ -228,10 +221,20 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MomSheet_14
+    - name: MomSpriteSheet_16
       rect:
         serializedVersion: 2
         x: 32
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MomSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 40
         y: 0
         width: 8
         height: 8
